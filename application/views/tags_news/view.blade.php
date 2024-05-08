@@ -53,6 +53,7 @@
                     <div class="pagination-tags pagination d-none d-lg-flex">
                         {%PAGINATION%}
                     </div>
+                    <?php /* ?>
                     <?php
                     $id = [$dataitem['id']];
                     ?>
@@ -68,6 +69,7 @@
                             </div>
                         @endif
                     </div>
+                    <?php */ ?>
                     <div class="d-lg-none">
                         @include('section.form_contact')
                     </div>

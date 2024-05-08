@@ -31,7 +31,7 @@
                     </select>
                 </div>
             </div>
-            <p class="title_page mt-4">{:TITLE_WE_HELP:}</p>
+            <p class="title_page mt-4 mb-4">{:TITLE_WE_HELP:}</p>
             <div class="row mb-3">
                 @if (count($WE_HELP_YOU) > 0)
                 @foreach ($WE_HELP_YOU as $k => $item)
