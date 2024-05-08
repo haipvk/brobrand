@@ -14,6 +14,7 @@ $listItems = $this->CI->Dindex->getDataDetail([
     'where' => $where,
     'order' => 'ord asc, id desc',
 ]);
+var_dump($listItems);
 $config['uri_segment'] = $segment;
 $this->CI->pagination->initialize($config);
 ?>
@@ -50,15 +51,9 @@ $this->CI->pagination->initialize($config);
                             </div>
                         </div>
                     @endif -->
-                <?php
-                $id = [$dataitem['id']];
-                $k = 0;
-                ?>
-                <!--DBS-loop.news.1|where:act = 1|order:ord asc|limit:-->
+                <!--DBS-loop.news.1|where:act = 1,FIND_IN_SET("'.itemnews1['tag'].'";parent) > 0|order:ord asc|limit:-->
                 <!--DBE-loop.news.1-->
-                <?php $k++ ; ?>
-                <?php var_dump($arrnews1[$k]['tag']); ?>
-                
+                <?php var_dump($arrnews1); ?>
                 <div class="list-journals">
                     <div class="row">
                         @foreach ($arrnews1 as $k => $item)
@@ -71,6 +66,9 @@ $this->CI->pagination->initialize($config);
                 <div class="pagination-tags pagination d-none d-lg-flex">
                     {%PAGINATION%}
                 </div>
+                <?php
+                $id = [$dataitem['id']];
+                ?>
                 <div class="related-topics d-none d-lg-block">
                     <!--DBS-loop.tags_news.2|where:act = 1,id != $id|order:ord asc| limit: -->
                     <!--DBE-loop.tags_news.2-->
