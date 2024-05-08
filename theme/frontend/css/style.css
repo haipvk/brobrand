@@ -1,0 +1,395 @@
+img {
+
+  max-width: 100%;
+
+  vertical-align: middle;
+
+  -webkit-object-fit: cover;
+
+  -moz-object-fit: cover;
+
+  -ms-object-fit: cover;
+
+  object-fit: cover;
+
+}
+
+
+
+.clearfix:before,
+
+.clearfix:after {
+
+  content: "";
+
+  display: block;
+
+  clear: both;
+
+}
+
+
+
+/* :not(:last-child) */
+
+/* :nth-child(1n+0) */
+
+textarea,
+
+input,
+
+button {
+
+  outline: none !important;
+
+}
+
+
+
+scroll-topss:hover>a {
+
+  background: #EE9526;
+
+}
+
+
+
+.cart-group {
+
+  border: 0.0625rem solid #DADAE5;
+
+  padding: 0.3125rem;
+
+  padding-bottom: 0rem;
+
+}
+
+
+
+.fw300 {
+
+  font-weight: 300;
+
+}
+
+
+
+.fw500 {
+
+  font-weight: 500;
+
+}
+
+
+
+.fw600 {
+
+  font-weight: 600;
+
+}
+
+
+
+.fw900 {
+
+  font-weight: 900;
+
+}
+
+
+
+.navblock {
+
+  font-family: "SVN-Harabaras";
+
+}
+
+
+
+.row_0 {
+
+  margin-left: 0;
+
+  margin-right: 0;
+
+}
+
+
+
+.row_0 div[class^=col-] {
+
+  padding-left: 0;
+
+  padding-right: 0;
+
+}
+
+
+
+.fw_600 {
+
+  font-weight: 600;
+
+}
+
+
+
+.fw_900 {
+
+  font-weight: 900;
+
+}
+
+
+
+/* :not(:last-child) */
+
+/* :nth-child(1n+0) */
+
+
+
+.accordion .accordion-item {
+
+  border-bottom: 1px solid #929597;
+
+}
+
+
+
+.accordion button {
+
+  position: relative;
+
+  display: block;
+
+  text-align: left;
+
+  width: 100%;
+
+  color: #000;
+
+  font-family: 'DarkerGrotesqueBold';
+
+  font-size: 48px;
+
+  font-weight: 400;
+
+  border: none;
+
+  background: none;
+
+  outline: none;
+
+  padding : 0;
+
+}
+
+
+
+.accordion button:hover,
+
+.accordion button:focus {
+
+  cursor: pointer;
+
+  color: #3b4545;
+
+}
+
+
+
+.accordion button:hover::after,
+
+.accordion button:focus::after {
+
+  cursor: pointer;
+
+  color: #3b4545;
+
+  border: 1px solid #3b4545;
+
+}
+
+
+
+.accordion button .accordion-title {
+
+  padding: 32px 42px 32px 0;
+
+  display: flex;
+
+}
+
+
+
+.accordion button .icon {
+
+  display: inline-block;
+
+  position: absolute;
+
+  top: 50%;
+
+  right: 0px;
+
+  width: 0px;
+
+  height: 0px;
+
+}
+
+
+
+.accordion button .icon::before {
+
+  display: block;
+
+  position: absolute;
+
+  content: '';
+
+  top: 50%;
+
+  right: 0px;
+
+  width: 26px;
+
+  height: 4px;
+
+  background: currentColor;
+
+  transform: translateY(-50%);
+
+}
+
+
+
+.accordion button .icon::after {
+
+  display: block;
+
+  position: absolute;
+
+  content: '';
+
+  top: 50%;
+
+  right: 11px;
+
+  width: 4px;
+
+  height: 26px;
+
+  background: currentColor;
+
+  transform: translateY(-50%);
+
+}
+
+
+
+.accordion button[aria-expanded='true'] {
+
+  color: #3b4545;
+
+}
+
+
+
+.accordion button[aria-expanded='true'] .icon::after {
+
+  width: 0;
+
+}
+
+
+
+.accordion button[aria-expanded='true']+.accordion-content {
+
+  opacity: 1;
+
+  max-height: unset;
+
+  transition: all 200ms linear;
+
+  will-change: opacity, max-height;
+
+  padding-bottom: 30px;
+
+}
+
+
+
+.accordion .accordion-content {
+
+  opacity: 0;
+
+  max-height: 0;
+
+  overflow: hidden;
+
+  transition: opacity 200ms linear, max-height 200ms linear;
+
+  will-change: opacity, max-height;
+
+  max-width: 1400px;
+
+}
+
+
+
+.accordion .accordion-content {
+
+  font-size: 22px;
+
+  padding-left: 100px;
+
+}
+.btn_talk {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'DarkerGrotesqueBold';
+  color: #fff;
+  /* text-decoration: underline; */
+  margin-left: 35px;
+}
+.other-page .btn_talk{
+  color: #000;
+}
+.active-fixed__headers .btn_talk{
+  color: #000;
+}
+@media (min-width: 1024px){
+  .content_service ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 8%;
+  }
+  .content_service ul li{
+    width: 35%;
+  }
+  .content_service{
+    width: 70%;
+  }
+}
+@media (min-width: 1366px){
+  .accordion .accordion-content {
+    width: 60%; 
+  }
+
+}
+
+
+.accordion .stt {
+
+  min-width: 100px;
+
+}
+
+
+
+.hidden {
+
+  visibility: hidden;
+
+}

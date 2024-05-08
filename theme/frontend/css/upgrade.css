@@ -1,0 +1,971 @@
+.news-box .news-box-left {
+  width: 70%;
+  padding: 1rem;
+}
+.news-box .news-box-right {
+  width: 30%;
+  padding: 1rem;
+}
+.css_date {
+  font-size: 24px;
+  color: #000;
+}
+.news-box .s-content {
+  color: #000;
+  font-size: 22px;
+}
+.box_tags a {
+  display: inline-block;
+  color: #000;
+}
+.about_video video {
+  width: 100%;
+  max-height: 90vh;
+  object-fit: cover;
+}
+.intros-prjs__details .s-content video {
+  width: 100%;
+  height: auto;
+}
+.footer_box_right {
+  text-align: right;
+}
+.social_footer {
+  justify-content: end;
+}
+
+.social_footer a {
+  border-radius: 100%;
+  background: #000;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  margin-left: 1rem;
+}
+.line-top-footer {
+  height: 1px;
+  /* margin-top: 40px; */
+  margin-top: 0 !important;
+  border-top: solid 1px #828b83;
+}
+.copy_right {
+  justify-content: space-between;
+}
+.intros-items__journalss .news_des {
+  font-size: 22px;
+}
+.menu_footer ul li a {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 500;
+  font-family: 'DarkerGrotesqueBold';
+  color: #828b83;
+}
+.menu_footer ul li:hover a{
+  color: #000;
+}
+.s-content a:hover{
+  color: #000;
+  font-weight: 700;
+}
+.menu_footer ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu_footer ul li:not(:last-child) {
+  border-right: 5px solid #828b83;
+  padding-right: 1rem;
+  margin-right: 1rem;
+}
+
+@media (min-width: 991px) {
+  .menu_footer ul li a {
+    font-size: 64px;
+    line-height: 59.2px;
+    font-weight: 700;
+  }
+}
+.box_first_news {
+  padding-bottom: 2rem;
+}
+.box_first_news .left {
+  padding: 0 1rem;
+}
+.box_first_news .right {
+  padding: 0 1rem;
+}
+.journal-pages .list-journals {
+  padding-top: 2rem;
+}
+.box_first_news .left,
+.box_first_news .right {
+  width: 50%;
+}
+.box_first_news .left img {
+  width: 100%;
+  object-fit: contain;
+}
+hr.line {
+  border-bottom: 1px solid #828b83;
+}
+.name_page {
+  color: #000;
+  font-family: "DarkerGrotesque";
+}
+.intros-items__journalss .title_news_big {
+  color: #000;
+  font-size: 30px;
+  line-height: 1.1;
+  transition: all 0.5s;
+}
+.intros-items__journalss .title_news_big:hover {
+  color: #929597;
+}
+.intros-items__journalss .tag_news {
+  color: #000;
+  transition: all 0.5s;
+}
+.intros-items__journalss .tag_news:hover {
+  color: #929597;
+}
+.page_normal_banner img{
+    width: 100%;
+    max-height: 80vh;
+}
+.box_tags {
+  /* margin: 0 -1rem; */
+  /* padding: 1rem 0; */
+  /* font-weight: 700; */
+}
+.title_news {
+  color: #1a1a1a;
+}
+.title_single_news {
+  color: #000;
+  margin-bottom: 1rem;
+  font-size: 36px;
+}
+.titles-prj__details {
+  font-size: 36px;
+}
+.news-box-right .tag_news {
+  color: #000;
+}
+.box_first_news .right .title_news_big {
+  color: #000;
+}
+.box_first_news .title_news_big {
+  font-size: 48px;
+  color: #1a1a1a;
+  line-height: 0.9;
+  margin-bottom: 24px;
+}
+.box_first_news .title_news_big:hover {
+  color: #929597;
+}
+.news_des {
+  font-size: 22px;
+}
+.items-journalss .news_des {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.box_first_news .date_time {
+  font-size: 24px;
+  line-height: 0.5;
+  margin-bottom: 24px;
+}
+.box_first_news .short_content {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+.txt_black {
+  color: #000;
+}
+.news-box .news-box-left img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 70vh;
+}
+.name_page {
+  font-size: 64px;
+}
+.box_tags a:not(:last-child) {
+  margin-right: 28px;
+}
+.box_tags a {
+  font-size: 20px;
+}
+.box_tags a:hover {
+  color: #929597;
+}
+.box_tags {
+  margin-bottom: 24px;
+}
+.section-page-blogs .blog-title {
+  font-size: 48px;
+  line-height: 1;
+  margin-bottom: 16px;
+  color: #000;
+}
+.img_full img {
+  width: 100%;
+  height: auto;
+}
+.box_first_news .tags {
+  font-size: 20px;
+  margin-right: 20px;
+  color: #000;
+}
+.box_first_news .tags:hover {
+  color: #929597;
+}
+.list-journals .row {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+.list-journals .row [class*="col-"] {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.items-journalss .tag_news {
+  font-size: 20px;
+  margin-right: 20px;
+}
+.items-journalss .date_time {
+  font-size: 20px;
+}
+.news-box .s-content {
+  font-size: 24px;
+}
+.news-box .img_full {
+  margin-bottom: 24px;
+}
+.news-box > div {
+  margin-bottom: 48px;
+}
+.news-box .item_box:first-child {
+  border-top: 1px solid #000000;
+}
+.news-box .item_box {
+  border-bottom: 1px solid #000000;
+  padding: 1.25rem 0;
+}
+.item_box .tag_news {
+  font-size: 20px;
+  margin-right: 1rem;
+  margin-top: 0.35rem;
+  color: #000;
+}
+.item_box .tag_news:hover {
+  color: #929597;
+}
+.hot_news_des {
+  font-size: 20px;
+}
+.row.news-box {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.news-box > .col-lg-4 {
+  padding-left: 32px;
+}
+.title-tags {
+  font-size: 30px;
+  color: #000;
+  order: 2;
+}
+.news_first_box .title_news {
+  order: 1;
+  margin-bottom: 2rem;
+}
+.news_first_box {
+  flex-direction: column;
+}
+.title_news {
+  font-size: 32px;
+}
+.title-parter__abouts,
+.btn-forms__requetss {
+  color: #000;
+  font-size: 32px;
+}
+.btn-forms__requetss {
+  position: relative;
+  padding-bottom: 0.5rem;
+  transition: all 0.5s;
+}
+.btn-forms__requetss::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.btn-forms__requetss:hover {
+  color: #929597;
+}
+.bottom-reques__forms .btn-forms__requetss {
+  display: inline-block;
+  width: auto;
+}
+.content-form {
+  margin-top: 1.25rem;
+  text-align: center;
+  font-size: 16px;
+  max-width: 1096px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nav-prj__tops li {
+  font-size: 22px;
+}
+.nav-prj__tops {
+  font-family: "DarkerGrotesque", sans-serif;
+  list-style: disc;
+  padding-left: 1.5rem;
+}
+.text-tops__prjs {
+  font-size: 24px;
+}
+.nav-prj__tops li::marker {
+  font-size: 12px;
+}
+.next-pages__jounal {
+  font-size: 40px;
+}
+.name-write__journal {
+  font-family: "DarkerGrotesque", sans-serif;
+  font-size: 28px;
+}
+.pagination-tags {
+  justify-content: center;
+  width: unset;
+  position: relative;
+  margin-top: 0;
+}
+.pagination-tags a[rel="next"] {
+  position: absolute;
+  right: 0;
+  font-size: 32px;
+  min-width: max-content;
+}
+.pagination-tags a[rel="prev"] {
+  position: absolute;
+  left: 0;
+  font-size: 32px;
+  min-width: max-content;
+}
+.pagination-tags a[rel="next"]::before {
+  content: "Next";
+  margin-right: 10px;
+}
+.pagination-tags a[rel="prev"]::after {
+  content: "Previous";
+  margin-left: 10px;
+}
+.text-black {
+  color: #000000;
+}
+.list-journals .items-journalss {
+  margin-bottom: 3rem;
+}
+.list-prj__works.sub-child-service {
+  display: none;
+}
+.list-prj__works_industries ul li.active a {
+  color: #000000 !important;
+  font-size: 36px;
+  font-family: "DarkerGrotesqueBold";
+}
+.list-prj__works_industries ul li a {
+  color: #828b83;
+  padding: 6px 0px;
+  display: block;
+}
+.list-prj__works_industries {
+  padding: 1.5rem;
+}
+.list-prj__works_industries ul {
+  list-style: disc;
+  padding: 1.5rem;
+}
+.title_partner_box{
+  font-size: 32px;
+  line-height: 33px;
+  color: #000;
+  font-weight: 700;
+  font-family: "DarkerGrotesqueBold";
+  margin-bottom: 24px
+}
+.title_single_news{
+    line-height: 0.9!important;
+}
+.des_partner_box{
+  font-size: 22px;
+  line-height: 24.64px;
+  color: #2D2D2D;
+}
+@media (min-width: 576px) {
+  .next-pages__jounal {
+    font-size: 48px;
+  }
+  .text-tops__prjs {
+    font-size: 30px;
+  }
+  .title-parter__abouts,
+  .btn-forms__requetss {
+    font-size: 36px;
+  }
+  .title-tags {
+    font-size: 26px;
+  }
+  .items-journalss .news_des {
+    font-size: 24px;
+  }
+  .intros-items__journalss .title_news_big {
+    font-size: 36px;
+  }
+  .box_first_news .short_content {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+  .section-page-blogs .blog-title {
+    font-size: 52px;
+  }
+  .box_tags a:not(:last-child) {
+    margin-right: 40px;
+  }
+}
+@media (min-width: 720px) {
+  .title_partner_box{
+
+  }
+  .name-write__journal {
+    font-size: 36px;
+  }
+  .next-pages__jounal {
+    font-size: 56px;
+  }
+  .nav-prj__tops li::marker {
+    font-size: 14px;
+  }
+  .text-tops__prjs {
+    font-size: 36px;
+  }
+  .nav-prj__tops {
+    list-style: disc;
+    padding-left: 1.5rem;
+  }
+  .nav-prj__tops li {
+    font-size: 36px;
+  }
+  .content-form {
+    font-size: 22px;
+    margin-top: 2rem;
+  }
+  .title-parter__abouts,
+  .btn-forms__requetss {
+    font-size: 48px;
+  }
+  .news_first_box .title_news {
+    margin-bottom: 4rem;
+  }
+  .title-tags {
+    font-size: 48px;
+  }
+  .hot_news_des {
+    font-size: 24px;
+  }
+  .item_box .tag_news {
+    font-size: 24px;
+    margin-right: 1.25rem;
+  }
+  .news-box > div {
+    margin-bottom: 80px;
+  }
+  .news-box .img_full {
+    margin-bottom: 30px;
+  }
+  .title_single_news {
+    font-size: 48px;
+  }
+  .titles-prj__details {
+    font-size: 48px;
+  }
+  .news-box .s-content {
+    font-size: 36px;
+  }
+  .items-journalss {
+    margin-bottom: 55px;
+  }
+  .items-journalss .date_time {
+    font-size: 24px;
+  }
+  .items-journalss .news_des {
+    font-size: 36px;
+  }
+  .items-journalss .tag_news {
+    font-size: 24px;
+    margin-right: 30px;
+  }
+  .intros-items__journalss .title_news_big {
+    font-size: 48px;
+  }
+  .box_first_news .short_content {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  .section-page-blogs .blog-title {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  .box_tags a:not(:last-child) {
+    margin-right: 52px;
+  }
+  .box_first_news .tags {
+    font-size: 24px;
+    margin-right: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .list-prj__works_industries ul {
+    list-style: none;
+  }
+  .list-prj__works_industries {
+    max-width: 40%;
+    padding: 0;
+  }
+  .list-prj__works.sub-child-service {
+    display: block;
+  }
+  .list-prj__works ul li.active ul,
+  .list-prj__works ul li.have-child ul {
+    display: none;
+  }
+  /* .pagination-tags {
+    margin-bottom: 3rem;
+    margin-top: 25px;
+  } */
+  .list-service-category .item-service-category:hover {
+    background: #ebebeb;
+  }
+  .list-journals .items-journalss {
+    margin-bottom: 70px;
+  }
+  .name-write__journal {
+    font-size: 44px;
+  }
+  .text-tops__prjs {
+    font-size: 22px;
+  }
+  .nav-prj__tops {
+    list-style: none;
+    padding-left: 2rem;
+  }
+  .titles-navs__prjs {
+    font-size: 30px;
+  }
+  .titles-prj__details {
+    font-size: 52px;
+  }
+  .box-tag-related {
+    margin-top: 2rem;
+    line-height: 1;
+  }
+  .box-tag-related .tags {
+    font-size: 30px;
+    margin-right: 1.25rem;
+    color: #000;
+  }
+  .box-tag-related .tags:hover {
+    color: #929597;
+  }
+  .title-related-topics {
+    font-size: 48px;
+    color: #000;
+  }
+  .title-tags {
+    order: 1;
+  }
+  .news_first_box .title_news {
+    order: 2;
+    margin-bottom: 0;
+  }
+  .news_first_box {
+    flex-direction: row;
+  }
+  .title-tags {
+    font-size: 56px;
+  }
+  .box_first_news .tags {
+    font-size: 28px;
+  }
+  .news-box .item_box {
+    border: none;
+  }
+  .news-box .item_box:first-child {
+    border-top: none;
+  }
+  .news-box > div {
+    margin-bottom: 0;
+  }
+  .news-box .img_full {
+    margin-bottom: 32px;
+  }
+  .news-box .s-content {
+    font-size: 22px;
+  }
+  .items-journalss .date_time {
+    font-size: 28px;
+  }
+  .items-journalss .news_des {
+    font-size: 22px;
+  }
+  .items-journalss .tag_news {
+    font-size: 28px;
+    margin-right: 28px;
+  }
+  .box_first_news .short_content {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .box_first_news .title_news_big {
+    font-size: 56px;
+  }
+  .box_first_news.row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+  .box_first_news.row .col-lg-7,
+  .box_first_news.row .col-lg-5 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .img_first_news.img_full img {
+    max-height: 557px;
+    width: 100%;
+    object-fit: cover;
+    min-height: 557px;
+  }
+  .hot_news_des {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .title_partner_box{
+    font-size: 72px;
+    line-height: 72px;
+    margin-bottom: 34px
+  }
+  .title_single_news {
+    margin-bottom: 3rem;
+  }
+  .name-write__journal {
+    margin-bottom: 3rem;
+    font-size: 44px;
+    font-family: "DarkerGrotesqueSemiBold";
+  }
+  .next-pages__jounal {
+    font-family: "DarkerGrotesque";
+  }
+  .nav-prj__tops {
+    padding-left: 2.5rem;
+  }
+  .titles-navs__prjs {
+    font-size: 32px;
+  }
+  .nav-prj__tops li {
+    font-size: 22px;
+  }
+  .box-tag-related .tags {
+    font-size: 32px;
+    margin-right: 1.5rem;
+  }
+  .title-related-topics {
+    font-size: 56px;
+  }
+  .title-parter__abouts,
+  .btn-forms__requetss {
+    font-size: 56px;
+  }
+  .title-tags {
+    font-size: 64px;
+  }
+  .row.news-box > .col-lg-4 {
+    padding-left: 48px;
+  }
+  .intros-items__journalss .title_news_big {
+    font-size: 32px;
+  }
+  .section-page-blogs .blog-title {
+    font-size: 72px;
+    margin-bottom: 28px;
+  }
+  .box_tags a {
+    font-size: 24px;
+  }
+  .box_tags {
+    margin-bottom: 32px;
+  }
+  .news-box-right {
+    margin-top: 8rem;
+  }
+  .css_date {
+    display: none;
+  }
+  .intros-items__journalss .date_time,
+  .box_first_news .date_time {
+    font-size: 26px;
+    color: #000;
+  }
+}
+@media (min-width: 1200px) {
+ 
+  .list-prj__works_industries {
+    max-width: 40%;
+  }
+  .name-write__journal {
+    font-size: 64px;
+  }
+  .nav-prj__tops {
+    padding-left: 3rem;
+  }
+  .titles-navs__prjs {
+    font-size: 36px;
+  }
+  .titles-prj__details {
+    font-size: 64px;
+  }
+  .box-tag-related {
+    margin-top: 3rem;
+  }
+  .box-tag-related .tags {
+    font-size: 36px;
+    margin-right: 1.75rem;
+  }
+  .title-tags {
+    font-size: 72px;
+  }
+  .box_first_news .tags {
+    font-size: 30px;
+  }
+  .row.news-box > .col-lg-4 {
+    padding-left: 64px;
+  }
+  .item_box .tag_news {
+    font-size: 32px;
+  }
+  .items-journalss .date_time {
+    font-size: 32px;
+  }
+  .list-journals .row {
+    margin-left: -33px;
+    margin-right: -33px;
+  }
+  .list-journals .row [class*="col-"] {
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  .items-journalss .tag_news {
+    font-size: 32px;
+    margin-right: 28px;
+  }
+  .box_first_news .title_news_big {
+    font-size: 64px;
+  }
+  .section-page-blogs .blog-title {
+    font-size: 108px;
+    margin-bottom: 40px;
+  }
+  .box_tags a {
+    font-size: 28px;
+  }
+  .box_tags {
+    margin-bottom: 40px;
+  }
+  .box_first_news.row {
+    margin-right: -32px;
+    margin-left: -32px;
+  }
+  .box_first_news.row .col-lg-7,
+  .box_first_news.row .col-lg-5 {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+@media (min-width: 1366px) {
+  .list-prj__works_industries {
+    max-width: 40%;
+  }
+  .name-write__journal {
+    font-size: 72px;
+  }
+  .nav-prj__tops {
+    padding-left: 3.5rem;
+  }
+  .titles-navs__prjs {
+    font-size: 44px;
+  }
+  .titles-prj__details {
+    font-size: 72px;
+  }
+  .box-tag-related .tags {
+    font-size: 40px;
+    margin-right: 2rem;
+  }
+  .title-parter__abouts,
+  .btn-forms__requetss {
+    font-size: 64px;
+  }
+  .intros-items__journalss .title_news_big {
+    font-size: 36px;
+  }
+  .box_first_news .title_news_big {
+    font-size: 72px;
+  }
+  .section-page-blogs .blog-title {
+    font-size: 132px;
+    margin-bottom: 60px;
+  }
+  .box_tags a:not(:last-child) {
+    margin-right: 48px;
+  }
+  .box_tags a {
+    font-size: 28px;
+  }
+  .box_tags {
+    margin-bottom: 52px;
+  }
+  .box_first_news.row {
+    margin-right: -40px;
+    margin-left: -40px;
+  }
+  .box_first_news.row .col-lg-7,
+  .box_first_news.row .col-lg-5 {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .items-journalss {
+    margin-bottom: 64px;
+  }
+}
+@media (min-width: 1536px) {
+  .title_partner_box{
+    font-size: 96px;
+    line-height: 88px;
+    margin-bottom: 54px;
+  }
+  .name-write__journal {
+    font-size: 96px;
+  }
+  .nav-prj__tops {
+    padding-left: 5rem;
+  }
+  .titles-navs__prjs {
+    font-size: 50px;
+  }
+  .box-tag-related {
+    margin-top: 55px;
+  }
+  .title-related-topics {
+    font-size: 64px;
+  }
+  .box-tag-related .tags {
+    font-size: 48px;
+    margin-right: 2.5rem;
+  }
+  .title-tags {
+    font-size: 96px;
+  }
+  .box_first_news .tags {
+    font-size: 32px;
+  }
+  .row.news-box > .col-lg-4 {
+    padding-left: 160px;
+  }
+  .items-journalss {
+    margin-bottom: 80px;
+  }
+  .items-journalss .date_time {
+    font-size: 40px;
+  }
+  .box_first_news .title_news_big {
+    font-size: 96px;
+  }
+  .name_page {
+    font-size: 96px !important;
+  }
+  .intros-items__journalss .title_news_big {
+    font-size: 50px;
+  }
+  .intros-items__journalss .tag_news {
+    font-size: 32px;
+  }
+  .box_tags {
+    font-size: 32px;
+  }
+  .news-box-right .tag_news {
+    font-size: 32px;
+  }
+  .news_txt_date {
+    font-size: 40px;
+  }
+  .title_single_news,
+  .titles-prj__details {
+    font-size: 96px;
+  }
+  .title_news {
+    font-size: 50px;
+  }
+  .box_first_news .tag_news {
+    font-size: 32px;
+  }
+  .intros-items__journalss .date_time,
+  .box_first_news .date_time {
+    font-size: 40px !important;
+    color: #000;
+  }
+  .box_tags a:not(:last-child) {
+    margin-right: 64px;
+  }
+  .box_tags {
+    margin-bottom: 60px;
+  }
+  .section-page-blogs .blog-title {
+    font-size: 165px;
+  }
+}
+@media (max-width: 1023.98px) {
+  .news_first_box .news_txt_date {
+    order: 2;
+  }
+  .news-box-right .item_box .hot_news_des {
+    font-size: 24px;
+  }
+  .news-box-right .item_box .title_news {
+    font-size: 32px;
+  }
+  .box_tags {
+    font-size: 20px;
+  }
+  .box_first_news .right .news_des {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1366.98px) {
+  .news-box-right .tag_news {
+    font-size: 24px;
+  }
+  .news_txt_date {
+    font-size: 24px;
+  }
+}

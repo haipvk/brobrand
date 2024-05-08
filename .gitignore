@@ -1,0 +1,13 @@
+node_modules
+sitemap.xml
+vendor
+uploads
+application/cache
+ci_session
+.vscode
+sftp-config.json
+.phpunit.result.cache
+docker-compose.override.yml
+npm-debug.log
+yarn-error.log
+/*.zip

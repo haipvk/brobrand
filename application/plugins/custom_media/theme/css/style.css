@@ -1,0 +1,24 @@
+div[id^=file],div[id^=folder]{
+  user-select: none;
+}
+.selection-rect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #062dec2b;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999999;
+} 
+.move_selection{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    pointer-events: none;
+}
+body,.media-manage{
+  user-select: none;
+}

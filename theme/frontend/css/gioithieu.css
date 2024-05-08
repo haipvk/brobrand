@@ -1,0 +1,218 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+  object-fit: cover;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* :not(:last-child) */
+/* :nth-child(1n+0) */
+.quality-trademarks {
+  margin-top: 50px;
+}
+
+.img-introduce__alls {
+  border: solid 2px #F5D182;
+  position: relative;
+  border-top: 0px;
+}
+.img-introduce__alls:after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: 100%;
+  margin: 0px auto;
+  display: flex;
+  z-index: 100;
+  background: url(../images/after-img-alls.svg) no-repeat center;
+  background-size: 100% 100%;
+  transform: translateY(2px);
+  height: 1px;
+  width: 15%;
+  padding-top: 3.5%;
+}
+.img-introduce__alls > a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.img-introduce__alls > a:before {
+  content: "";
+  position: absolute;
+  left: -1px;
+  top: 0px;
+  height: 2px;
+  width: 45%;
+  background-color: #F5D182;
+}
+.img-introduce__alls > a:after {
+  content: "";
+  position: absolute;
+  right: -1px;
+  top: 0px;
+  height: 2px;
+  width: 45%;
+  background-color: #F5D182;
+}
+.img-introduce__alls > a img {
+  width: 100%;
+  height: auto;
+}
+
+.box-introduce__allss {
+  margin-bottom: 50px;
+}
+.box-introduce__allss > .container .row {
+  display: flex;
+  --bs-gutter-x: 20px;
+}
+.box-introduce__allss .button-borders__alls {
+  margin-top: 30px;
+}
+
+.titles-quality__trademarks {
+  margin-bottom: 20px;
+}
+.titles-quality__trademarks .titles-introsduces__alls {
+  margin-bottom: 0px;
+}
+.titles-quality__trademarks .titles-introsduces__alls span {
+  font-size: 18px;
+  font-family: "Roboto";
+}
+.titles-quality__trademarks .titles-bottom__quality {
+  margin-bottom: 0px;
+}
+
+.titles-bottom__quality {
+  font-size: 24px;
+  font-family: "Roboto-Medium";
+  color: #F5D182;
+  text-transform: uppercase;
+}
+
+.text-introduce__alls {
+  padding-top: 30px;
+}
+
+.titles-introsduces__alls {
+  font-size: 30px;
+  font-family: "RobotoSlab-Regular";
+  color: #F5D182;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.list-field__introsduces li {
+  display: flex;
+  align-items: center;
+}
+.list-field__introsduces li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.list-field__introsduces li img {
+  display: flex;
+  width: 35px;
+  height: 35px;
+  min-width: 35px;
+  margin-right: 10px;
+}
+
+.group-mission__texts:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.list-values__introduces {
+  margin-bottom: 20px;
+}
+.list-values__introduces > li {
+  display: flex;
+  align-items: center;
+}
+.list-values__introduces > li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.list-values__introduces > li img {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  margin-right: 10px;
+}
+
+.introduces-historys .title-cicle__alls {
+  margin-top: 30px;
+}
+.introduces-historys .img-historys__introduces {
+  position: relative;
+}
+
+.list-tracks__historys {
+  padding-left: 40px;
+  position: relative;
+}
+.list-tracks__historys:after {
+  content: "";
+  position: absolute;
+  left: 7px;
+  top: 0px;
+  width: 5px;
+  height: 100%;
+  background-color: #4C3B1F;
+}
+
+.historys-tracks__items {
+  margin-top: 20px;
+  position: relative;
+}
+.historys-tracks__items:after {
+  content: "";
+  position: absolute;
+  display: flex;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+  right: 100%;
+  top: 0px;
+  border-radius: 1000px;
+  transform: translateX(-24px);
+  background-color: #F5D182;
+}
+.historys-tracks__items .titles-historys__items {
+  color: #F5D182;
+  font-size: 20px;
+  font-family: "Roboto-Medium";
+  margin-bottom: 10px;
+}
+
+.banner-introdute__pages {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner-introdute__pages .title-introduce-pages {
+  position: absolute;
+  width: fit-content;
+  font-size: 30px;
+  text-align: center;
+  color: #F5D182;
+  transform: translateY(30px);
+  font-family: "Roboto-Medium";
+  text-transform: uppercase;
+  padding: 5px 100px;
+  background: black;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6001751042) 20%, rgba(0, 0, 0, 0.7010154404) 50%, rgba(0, 0, 0, 0.6001751042) 80%, rgba(0, 0, 0, 0) 100%);
+}
+.banner-introdute__pages img {
+  min-height: 545px;
+}

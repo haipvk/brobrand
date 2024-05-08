@@ -1,0 +1,121 @@
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  -webkit-object-fit: cover;
+  -moz-object-fit: cover;
+  -ms-object-fit: cover;
+  object-fit: cover;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* :not(:last-child) */
+/* :nth-child(1n+0) */
+.content-suports__pages .text-prds__tops {
+  text-align: center;
+}
+
+.box-sp__forms {
+  border: 50px solid transparent;
+  border-image: url(../images/bg-sp-helps.svg) 45 round;
+  border-image-repeat: revert;
+  margin-bottom: 30px;
+}
+.box-sp__forms form > .row {
+  --bs-gutter-x: 120px;
+}
+.box-sp__forms .group-form__alls {
+  display: flex;
+  align-items: center;
+}
+.box-sp__forms .group-form__alls .labels-alls {
+  width: 23%;
+  font-family: "Roboto-Medium";
+  color: #F5D182;
+}
+.box-sp__forms .group-form__alls .group-add__formss {
+  width: 100%;
+  flex: 1;
+  margin-left: 20px;
+}
+.box-sp__forms .group-form__alls:not(:last-child) {
+  margin-bottom: 10px;
+}
+.box-sp__forms textarea {
+  max-height: 95px;
+}
+.box-sp__forms .button-borders__alls {
+  width: 100%;
+}
+
+.notes-suports__pages {
+  text-align: center;
+  font-style: italic;
+}
+
+.maps-contacts {
+  margin-bottom: 25px;
+}
+.maps-contacts iframe {
+  height: 445px;
+}
+
+.titles-bottom__contacts {
+  font-size: 24px;
+  font-family: "Roboto-Medium";
+  color: #F5D182;
+  margin-bottom: 10px;
+}
+
+.text-yellows__contacts {
+  color: #D6BC52;
+  margin-bottom: 15px;
+}
+
+.titles-address__contacts {
+  font-size: 20px;
+  font-family: "Roboto-Medium";
+  color: #F5D182;
+}
+
+.intros-address__contacts li {
+  display: flex;
+  align-items: flex-start;
+  font-style: 16px;
+}
+.intros-address__contacts li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.intros-address__contacts li a {
+  color: #FFFFFF;
+  margin-left: 5px;
+}
+.intros-address__contacts li a:hover, .intros-address__contacts li a:focus {
+  color: #D6BC52;
+}
+.intros-address__contacts li span {
+  margin-left: 5px;
+  width: 100%;
+  flex: 1;
+}
+
+.intros-bottom__contacts > .row {
+  --bs-gutter-x: 10px;
+}
+
+.box-form__contacs .group-form__alls:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.box-form__contacs {
+  border: 30px solid transparent;
+  border-image: url(../images/bg-sp-helps.svg) 35 round;
+  border-image-repeat: revert;
+}
+.box-form__contacs .button-borders__alls {
+  width: 100%;
+}
